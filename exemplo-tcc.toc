@@ -1,18 +1,20 @@
 \select@language {brazilian}
 \select@language {english}
 \select@language {brazilian}
-\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{10}
-\contentsline {section}{\numberline {1.1}Motiva\c c\~ao e Objetivos}{10}
+\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{8}
+\contentsline {section}{\numberline {1.1}Motiva\c c\~ao e Objetivos}{9}
 \contentsline {section}{\numberline {1.2}Estrutura do Texto}{10}
-\contentsline {subsection}{\numberline {1.2.1}Uma subse\c c\~ao}{11}
-\contentsline {chapter}{\numberline {2}Internet of Things e Cloud of Things: Evolu\c c\~ao }{12}
-\contentsline {section}{\numberline {2.1}Internet of Things: }{12}
-\contentsline {section}{\numberline {2.2}Cloud of Things: }{12}
-\contentsline {chapter}{\numberline {3}Trabalhos relacionados: }{14}
-\contentsline {section}{\numberline {3.1}T\IeC {\'\i }tulo 1}{14}
-\contentsline {section}{\numberline {3.2}T\IeC {\'\i }tulo N}{14}
-\contentsline {chapter}{\numberline {4}EXEHDA ? }{15}
+\contentsline {chapter}{\numberline {2}Internet of Things e Cloud of Things: Evolu\c c\~ao }{11}
+\contentsline {section}{\numberline {2.1}Internet of Things: }{11}
+\contentsline {section}{\numberline {2.2}Cloud of Things: }{11}
+\contentsline {chapter}{\numberline {3}Trabalhos relacionados: }{13}
+\contentsline {section}{\numberline {3.1}T\IeC {\'\i }tulo 1}{13}
+\contentsline {section}{\numberline {3.2}T\IeC {\'\i }tulo N}{13}
+\contentsline {chapter}{\numberline {4}EXEHDA}{14}
+\contentsline {section}{\numberline {4.1}Middleware EXEHDA}{14}
+\contentsline {section}{\numberline {4.2}Servidor de Borda}{15}
 \contentsline {chapter}{\numberline {5}FIWARE: Um estudo sobre a tecnologia }{16}
+\contentsline {section}{\numberline {5.1}Aplica\c c\~oes conscientes ao contexto utilizando FIWARE}{16}
 \contentsline {chapter}{\numberline {6}Conclus\~ao}{17}
 \contentsline {chapter}{Refer{\^e}ncias}{18}
 \setbox \@tempboxa \hbox {{{\sffamily \textbf {\MakeUppercase {Anexo} }}}}\ei@chapnumindent \wd \@tempboxa \setbox \@tempboxa \box \voidb@x \advance \ei@chapnumindent 1.8em\relax 
