@@ -115,19 +115,43 @@ do trabalho, suas motivacões e objetivos. No capítulo 2 sao caracterizados conce
 voltados para a Internet of Things e Cloud of Things, do seus primordios até sua evolução à Cloud of Things, bem como o que esperar desta tecnologia. No capítulo 3 a fim de comparar e analisar as diversas soluções, são apresentados trabalhos relacionados à area de pesquisa, a qual este trabalho se encaixa. Uma visão geral do middleware EXEHDA, é apresentada no capítulo 4, além de como será abordado o foco do trabalho, sua modelagem e implementação. A tecnologia de nuvem proposta neste TCC será apresentada no capítulo 5. No capítulo 6 é apresentada a conclusão, onde se realiza comentários sobre possíveis resultados e trabalhos a serem desenvolvidos para a continuidade do TCC.
 
 
-\chapter{Internet of Things e Cloud of Things: Evolução }
-
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla~\ref{tabela2}.
+\chapter{Internet of Things e Cloud of Things}
+Este capítulo aborda a definição de Internet das coisas (do inglês Internet of Things ? IoT) [Atzori et al. 2010] e sobre Nuvem das coisas(do inglês Cloud of things - CoT) hoje sendo tratado como a próxima etapa da IoT.  
+	
 \section{Internet of Things: }
-bla bla bla
+A Internet das Coisas é um paradigma que preconiza um mundo de objetos físicos embarcados com sensores e atuadores, conectados por redes sem fio e que se comunicam usando a Internet,
+moldando uma rede de objetos inteligentes capazes de realizar variados processamentos,
+capturar variáveis ambientais e reagir a estímulos externos. Esses objetos
+interconectam-se entre si e com outros recursos (físicos ou virtuais) e podem ser
+controlados através da Internet, permitindo o surgimento de uma miríade de aplicações
+que poderão se beneficiar dos novos tipos de dados, serviços e operações disponíveis. A IoT é uma das principais tecnologias emergentes que contribuem para concretizar novos domínios de aplicação das tecnologias de informação e comunicação (TICs), a exemplo do domínio de cidades inteligentes, no qual o uso de tecnologias avançadas de
+comunicação e sensoriamento visa prover serviços de valor agregado para os órgãos
+administrativos de tais cidades e para seus cidadãos [Zanella et al. 2014].
+  Atualmente temos diversas tecnologias mescladas e desaparecidas em novas tecnologias, definindo o que Mark Weiser citou como verdade. Estes pontos acabam gerando grandes discussões sobre este tópico, o qual a Internet das Coisas(IoT) vem se destacando e tornando-se um marco na história global, considere que a IoT representa a próxima evolução da Internet, dando um grande salto na capacidade de coletar, analisar e distribuir dados que nós podemos transformar em informações, conhecimento e, por fim, sabedoria. Nesse contexto, a IoT se torna bem importante. 
+  Com este avanço da tecnologia e a grande quantidade de informações proporcionada pelo contexto, possibilitou o crescimento da Internet das Coisas, abrangendo diversos ambientes. Com isto diversas aplicações surgiram, nas diferentes áreas, como (i) Construções; (ii) Energia; (iii) Consumo e Casa; (iv) Saúde e Ciência de vida; (v) Setor Industrial; (vi) Transporte; (vii)Compras e Produtos; (viii) Segurança e Segurança Pública; (ix) Tecnologia da informação e Conexão.
+  
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=.4]{IoT-all}
+\caption{Setores abrangidos pela IoT)} 
+\label{figura}
+\end{figure}
+
+Com a possibilidade de estar conectado à tudo, a Internet das Coisas gera alguns desafios como:
+\begin{itemize}
+\item Heterogeneidade: onde existe diversas tecnologia dos dispositivos e protocolos de comunicação;
+\item Segurança e Privacidade: para os dados captados e utilizados pelo dispositivos;
+\item Escalabilidade: devido ao rápido crescimento do número de dispositivos presentes conectados à IoT.
+\item Interoperabilidade: Interação dos sistemas e dispositivos com máxima transparência possível.
+\end{itemize}
+
+Para conseguir suprir as consequências destes desafios, diversos estudos vêm sendo feito na área de IoT, e para a escalabilidade já existe uma solução: Adoção do novo protocolo de internet, o IPv6 que utiliza 2\^128 endereços , contra 2\^32 endereços do ainda utilizável IPv4. 
+Para o grande volume de dados proporcionados pelos diversos ambientes, surge soluções como Computação em Nuvem e Big Data para absorver a necessidade do processamento ubíquo e geração de informações em grande escala.
+Segurança e privacidade é o ponto mais frágil destes desafios, pois com grandes informações e tomadas de decisões sem a intervenção humana, o vazamento das informações bem como uma decisão tomada errada, por erro de cálculo ou por invasão no sistema, torna o usuário extremamente vulnerável neste cenário de uso indevido.
+
+
+
+  
+  
 
 \section{Cloud of Things: }
 
@@ -155,22 +179,39 @@ Blabla & Blabla & Blablabla\\
 \end{center}
 \end{table}
 
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=.4]{figura}
-\caption{Nome da figura} 
-\label{figura}
-\end{figure}
-
 
 \chapter{Trabalhos relacionados: }
+Neste tópico será feito uma mostragem de trabalhos e projetos relacionados à este TCC, os quais aumentaram o âmbito desta pesquisa e aplicação.
+  
+\section{Lely T4C InHerd}
+Lely é um sistema de gerenciamento de fazendas onde, equipado de suas tecnologias, o produtor consegue ter acesso à todas informações geradas pelo contexto na palma de sua mão, através de tablets, smartphones e computadores. Este sistema conta com diversas ferramentas para ajudar o produtor durante seu dia a dia, alguma delas como registro de atividades e rotinas, informações sobre um devido animal, analisador infográfico da produção leiteira, alertas para o produtor sobre problemas em seu maquinário de produção leiteira.
 
-  projeto IoT@Work tem como objetivo reduzir custos operacionais de
+
+\begin{figure}[h!]
+  \centering \includegraphics[scale=.4]{app-lely}
+\caption{Aplicativo Lely} 
+\label{figura}
+\end{figure}  
+
+
+\section{Projeto IoT@Work}
+O projeto IoT@Work tem como objetivo reduzir custos operacionais de
 configuração, funcionamento e manutenção de soluções fabris, por meio da redução dos
 tempos de interrupção decorrentes de reconfiguração e mudanças nos sistemas. Assim,
 foram desenvolvidas tecnologias para viabilizar o conceito de ?plug\&work? em redes industriais, visando permitir o ingresso de equipamentos na rede e a obtenção ou fornecimento de funcionalidades sem intervenção humana [IOT@WORK 2013]. Dentre as tecnologias desenvolvidas destacam-se: (i) o serviço de diretório unificado: permite aos dispositivos descobrir e acessar outros dispositivos ou serviços da rede por meio de uma API, viabilizando também seu monitoramento remoto; (ii) O serviço de notificação de eventos: um middleware que atua como um conector entre geradores e consumidores de eventos, permitindo a troca de informações eficiente entre os dispositivos; e (iii) o Processamento de Eventos Complexos: permite que dados monitorados disparem processos automatizados de atuação [Imtiaz et al. 2013]. Contudo, apesar de ser focado em ambientes industriais e permitir a comunicação M2M, o projeto não aborda a publicação de dados dos
 dispositivos em uma plataforma de Nuvem.
-\section{Título 1}
-\section{Título N}
+
+\section{EcoDiF - Ecossistma Web de Dispositivos Físicos}
+
+Em um contexto mais geral, temos a EcoDiF, que é uma plataforma Web para conectar dispositivos e produtos com aplicações e/ou usuários finais, a fim de fornecer funcionalidades de controle, visualização, processamento e armazenamento de dados. A EcoDiF atuará como um núcleo de um ecossistema Internet of Things, oferecendo serviços (de software) focados: (i) na conectividade entre dispositivos e a Internet; (ii) em serviços de aplicação e (iii) em serviços de apoio. A EcoDiF pode ser usada em diversos contextos, tais como aplicações de monitoramento ambiental, de monitoramento de infraestrutura pública, como acompanhamento de trânsito e condições da estrada, bem como para compartilhamento de dispositivos de sensoriamento entre laboratórios acadêmicos.
+
+\begin{figure}[h!]
+  \centering \includegraphics[scale=.4]{EcoDif-geral}
+\caption{Estrutura EcoDiF - Ecossistma Web de Dispositivos Físicos} 
+\label{figura}
+\end{figure}  
+
+
 
 \chapter{EXEHDA}
 
@@ -229,6 +270,40 @@ A própria plataforma FIWARE tem seu interpretador de contexto, chamado de ORION.
 \label{figura}
 \end{figure}
 
+\section{Conectando-se a IoT}
+Para iniciar a manusear as informações de contextos obtidas pelos sistemas conectados à apicação ou para o usuario interagir com sua aplicação usando um portal de Web, tem que ser feiro o gerenciamento das "coisas" usando sensores e atuadores. Chamados de Agentes-IoT(IDAS), que interagem com as opções de regras ajustada para cada dispositivo, usando protocolos que é suportado pelo produtor de contexto.
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=.4]{agentes-iot}
+\caption{Gerenciamento dos Dispositivos} 
+\label{figura}
+\end{figure}
+
+Para ter acesso aos dados proporcionados pelos agentes, temos que contectar nossos dispositivos de IoT no sistema de Nuvem FIWARE, através de um interpretador de contexto. Para a comunicação ser feira, deve-se aplicar o protocolo NGSI, o que é uma interface de Aplicação RESTful por HTTP. 
+Os detalhes para esta comunicação são feitos através dos seguintes parâmetros: 
+\begin{itemize}
+\item IP Address(idas\_host): passado por  Endereço de IP do servidor.
+\item Rest Admin Port(idas\_admin\_port): Indicar a porta que está sendo usada para o acesso administrativo.
+\item Rest Device Port(idas\_ul20\_port): Indicar qual porta é usada para os dispositivos de IoT.
+\item Service (service): habilitar o serviço IDAS(Agentes-IoT) para gerenciar os diversos dispositivos conectados.
+\item  APIKEY (apikey): para efetuar a troca de informações do dispositivo IoT para um serviço específico do Agente.
+\end{itemize}
+\section{Criando um modelo para os Dispositivos IoT}
+O ambiente deste trabalho é de uma indústria de leite bovino, onde o cenário de estudo são: (i) Bomba de vácuo: monitorar esta bomba faz com que o produtor tenha um alerta caso seu funcionamento não seja como o esperado, visto que este mal funcionamento pode prejudicar o animal. (ii) Resfriador: para saber o total produzido em cada ordenha e a temperatura que o leite se encontra, impedindo o congelamento. Com esta informação também é possível fazer um gráfico com o decaimento da temperatura ao longo do tempo, pois com isso podemos notar se o funcionamento do resfriador está adequado ou precisa de manutenção. (iii) Câmara Fria: após o leite ser pasteurizado e embalado ele fica na câmara fria até ser entregue para o cliente final, assim o monitoramento da temperatura desta câmara será útil para impedir que a produção seja perdida por falta de refrigeração, ou até mesmo o congelamento do leite.(iv) Banco de Gelo: usado para pasteurizar o leite, com esta informação, tem-se uma analise do seu funcionamento para impedir a nãopasteurização do leite, ou até mesmo algum defeito no maquinário.
+Ao analisar o contexto que será tratado este trabalho, foi pensado nos seguintes sensores e atuadores.
+
+\begin{itemize}
+\item Sensor\_press: Sensor para determinar a pressão exercida pela bomba de vácuo.
+\item Sensor\_vol: Sensor para calcular volume do leite no resfriador.
+\item Sensor\_temp\_resf: Sensor de temperatura no resfriador.
+\item Sensor\_temp\_cam: Sensor de temperatura na câmara fria.
+\item Sensor\_temp\_bg: Sensor de temperatura no banco de gelo.
+  
+\end{itemize}
+
+
+
+
+
 \chapter{Conclusão}
 
 % Bibliografia
@@ -241,47 +316,6 @@ A própria plataforma FIWARE tem seu interpretador de contexto, chamado de ORION.
 \bibliographystyle{abnt}
 
 % Anexos (Opcional)
-\annex 
-\chapter{Um Anexo}
-
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla
-  blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla
-  blabla blablabla bla.  Bla blabla blablabla bla.
-
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla
-  blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla
-  blabla blablabla bla.  Bla blabla blablabla bla.
-
-\chapter{Outro Anexo}
-
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla
-  blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla
-  blabla blablabla bla.  Bla blabla blablabla bla.
-
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla
-  blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla
-  blabla blablabla bla.  Bla blabla blablabla bla.
-
 %Faz a capa do CDROM
 \makecover
 
