@@ -5,18 +5,19 @@
 \contentsline {section}{\numberline {1.1}Motiva\c c\~ao e Objetivos}{9}
 \contentsline {section}{\numberline {1.2}Estrutura do Texto}{10}
 \contentsline {chapter}{\numberline {2}Internet of Things e Cloud of Things}{11}
-\contentsline {section}{\numberline {2.1}Internet of Things: }{11}
+\contentsline {section}{\numberline {2.1}Internet of Things}{11}
 \contentsline {section}{\numberline {2.2}Cloud of Things: }{13}
-\contentsline {chapter}{\numberline {3}Trabalhos relacionados: }{14}
-\contentsline {section}{\numberline {3.1}Lely T4C InHerd}{14}
-\contentsline {section}{\numberline {3.2}Projeto IoT@Work}{15}
-\contentsline {section}{\numberline {3.3}EcoDiF - Ecossistma Web de Dispositivos F\IeC {\'\i }sicos}{15}
-\contentsline {chapter}{\numberline {4}EXEHDA}{17}
-\contentsline {section}{\numberline {4.1}Middleware EXEHDA}{17}
-\contentsline {section}{\numberline {4.2}Servidor de Borda}{18}
-\contentsline {chapter}{\numberline {5}FIWARE: Um estudo sobre a tecnologia }{19}
-\contentsline {section}{\numberline {5.1}Aplica\c c\~oes conscientes ao contexto utilizando FIWARE}{19}
-\contentsline {section}{\numberline {5.2}Conectando-se a IoT}{20}
-\contentsline {section}{\numberline {5.3}Criando um modelo para os Dispositivos IoT}{20}
-\contentsline {chapter}{\numberline {6}Conclus\~ao}{22}
-\contentsline {chapter}{Refer{\^e}ncias}{23}
+\contentsline {chapter}{\numberline {3}Trabalhos relacionados: }{15}
+\contentsline {section}{\numberline {3.1}Lely T4C InHerd}{15}
+\contentsline {section}{\numberline {3.2}Projeto IoT@Work}{16}
+\contentsline {section}{\numberline {3.3}EcoDiF - Ecossistma Web de Dispositivos F\IeC {\'\i }sicos}{16}
+\contentsline {chapter}{\numberline {4}EXEHDA}{18}
+\contentsline {section}{\numberline {4.1}Middleware EXEHDA}{18}
+\contentsline {section}{\numberline {4.2}Servidor de Borda}{19}
+\contentsline {section}{\numberline {4.3}EXEHDA - Atualmente}{19}
+\contentsline {chapter}{\numberline {5}FIWARE: Um estudo sobre a tecnologia }{21}
+\contentsline {section}{\numberline {5.1}Aplica\c c\~oes conscientes ao contexto utilizando FIWARE}{21}
+\contentsline {section}{\numberline {5.2}Conectando-se a IoT}{22}
+\contentsline {section}{\numberline {5.3}Criando um modelo para os Dispositivos IoT}{22}
+\contentsline {chapter}{\numberline {6}Conclus\~ao}{24}
+\contentsline {chapter}{Refer{\^e}ncias}{25}
